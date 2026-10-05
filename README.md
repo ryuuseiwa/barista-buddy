@@ -74,9 +74,9 @@ The workflow in `.github/workflows/pages.yml` publishes `dist/` to GitHub Pages.
 
 The DEV submission follows the provided “Build for a Friend” headings and is [published on DEV](https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-3a16) with the required tags `devchallenge`, `weekendchallenge`, and `hf26challenge`.
 
-The source repository is [ryuuseiwa/barista-buddy](https://github.com/ryuuseiwa/barista-buddy), and the public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/). Friend feedback has not been collected. The linked DevRelay testing session is private/unpublished and may not be accessible to judges.
+The source repository is [ryuuseiwa/barista-buddy](https://github.com/ryuuseiwa/barista-buddy), and the public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/). Friend feedback has not been collected. The optional testing session is saved privately and is not linked in the entry.
 
-Barista Buddy was built during the challenge window, not before it. No partner prize category is listed in the submission.
+Barista Buddy was built during the challenge window, not before it. The entry lists Best Use of GitHub Copilot because its GitHub Actions workflow automates deployment to Pages.
 
 ## Licenses and references
 

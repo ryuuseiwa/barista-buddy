@@ -69,6 +69,6 @@ I can also inspect and change the prompts, replace the model, or adjust how much
 
 For this particular app, that’s the intended benefit of open innovation: he can keep a private learning notebook and, once the model is successfully installed, get personalized help from it without a paid model API or model server. Browser inference and offline use still need to be confirmed on his device.
 
-## My Agent Session
+## Prize Categories
 
-I saved a DevRelay session documenting local browser testing and the model-download failure: [Barista Buddy local browser testing](https://dev.to/agent_sessions/barista-buddy-local-browser-testing-js1pha). The session is private/unpublished and may not be accessible to judges.
+**Best Use of GitHub Copilot:** The GitHub Actions workflow automates publishing the app to GitHub Pages on every push to `main` and supports manual deployment runs.

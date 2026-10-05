@@ -90,7 +90,7 @@ This ZIP is a portable source export, not a clone with original Git history. It 
 - `docs/submission-template.pdf` is the supplied template screenshot.
 - `docs/submission-requirements.pdf` is the user-supplied challenge page snapshot.
 
-The post follows the required headings and is published at https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-3a16 with tags `devchallenge`, `weekendchallenge`, `hf26challenge`. AI assistance is disclosed as “Some AI (AI-assisted).” It links to the public repository and GitHub Pages demo and accurately discloses that browser inference was not verified. Friend feedback has not been collected; do not invent any.
+The post follows the required headings and is published at https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-3a16 with tags `devchallenge`, `weekendchallenge`, `hf26challenge`. AI assistance is disclosed as “Some AI (AI-assisted).” It states that the app was built during the challenge window, lists Best Use of GitHub Copilot based on its GitHub Actions Pages deployment, links the public repository and demo, and accurately discloses that browser inference was not verified. Friend feedback has not been collected; do not invent any.
 
 The official deadline was October 5, 2026 at 06:59 UTC, which is October 5 at 1:59 a.m. America/Chicago. Verify the official challenge page if continuing at a later time:
 
