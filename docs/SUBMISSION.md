@@ -18,7 +18,7 @@ The recipes come from what he records. That matters because I wanted him to lear
 
 There’s also a small progress view showing what he has practiced and his own confidence ratings. Sample entries are clearly labeled, and he can remove them when he starts his real notebook.
 
-<!-- After your friend tries it, add his actual feedback here. Do not claim he has used it until he has. -->
+I have not handed the app to my friend yet, so this submission does not include user feedback.
 
 ## Demo
 
@@ -61,7 +61,7 @@ In local browser checks, the interface rendered at desktop (1280x900) and narrow
 
 My friend should be able to write “I forgot this” or “I’m still struggling with this” without sending that learning history to a remote AI service.
 
-An open-weight model makes the coach run on his own device. After the initial download, inference does not need a paid model API or upload his notes for processing. The browser caches the model, so local offline use is possible when all required files remain available. It does need internet for the first download, and offline access depends on the browser and its cache.
+The design uses an open-weight model to run the coach on his own device. After the initial download, inference does not need a paid model API or upload his notes for processing. The browser is intended to cache the model so local offline use is possible when all required files remain available. It does need internet for the first download, and offline access depends on the browser and its cache.
 
 I can also inspect and change the prompts, replace the model, or adjust how much of his notebook the coach sees. The project isn’t tied to one hosted model provider.
 
@@ -73,4 +73,4 @@ I saved a DevRelay session documenting local browser testing and the model-downl
 
 ## Prize Categories
 
-<!-- Optional: list only the categories you have checked and are actually entering, or remove this section. No prize eligibility has been asserted. -->
+I am not claiming eligibility for an optional partner prize category.

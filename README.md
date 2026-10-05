@@ -4,7 +4,7 @@ A private learning notebook for a friend who moved to a new country and is train
 
 ## Demo
 
-The project is deployed to GitHub Pages from `dist/` by the workflow in `.github/workflows/pages.yml`:
+The project is deployed to GitHub Pages from `dist/` by the workflow in `.github/workflows/pages.yml`. The public page was verified on October 5, 2026:
 
 https://ryuuseiwa.github.io/barista-buddy/
 
@@ -75,7 +75,7 @@ The workflow in `.github/workflows/pages.yml` publishes `dist/` to GitHub Pages.
 The DEV submission draft follows the provided “Build for a Friend” headings. Before posting:
 
 1. The source repository is [ryuuseiwa/barista-buddy](https://github.com/ryuuseiwa/barista-buddy).
-2. The public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/); test the link before sharing it.
+2. The public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/) and was checked after the initial successful deploy.
 3. Let your friend try it and include only his actual feedback.
 4. If you recorded a DevRelay session, add the actual link. Otherwise remove that optional section.
 

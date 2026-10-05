@@ -76,7 +76,7 @@ Source repository:
 
 https://github.com/ryuuseiwa/barista-buddy
 
-Verify the Pages workflow and public demo before sharing; model download/inference was not verified in the browser.
+The Pages workflow succeeded and the public demo was opened in a browser on October 5, 2026. Model download/inference was not verified in the browser.
 
 The original source snapshot was published with commit:
 
@@ -90,7 +90,7 @@ This ZIP is a portable source export, not a clone with original Git history. It 
 - `docs/submission-template.pdf` is the supplied template screenshot.
 - `docs/submission-requirements.pdf` is the user-supplied challenge page snapshot.
 
-The draft follows the required headings and has tags `devchallenge`, `weekendchallenge`, `hf26challenge`. It has not been posted to DEV. It now links to the public repository and GitHub Pages demo and accurately discloses that browser inference was not verified. Friend feedback has not been collected; do not invent any.
+The draft follows the required headings and has tags `devchallenge`, `weekendchallenge`, `hf26challenge`. It is staged as an unpublished DEV draft at https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-1ad7-temp-slug-53650/edit. It links to the public repository and GitHub Pages demo and accurately discloses that browser inference was not verified. Friend feedback has not been collected; do not invent any.
 
 The official deadline was October 5, 2026 at 06:59 UTC, which is October 5 at 1:59 a.m. America/Chicago. Verify the official challenge page if continuing at a later time:
 
@@ -100,17 +100,16 @@ The rules require building during the challenge window. Any post-deadline commit
 
 ## DevRelay
 
-Dan wants to use DevRelay. It was not connected to the original ChatGPT Work build, so there is no saved DevRelay session for that build.
+Dan wants to use DevRelay. The actual local testing/refinement session is saved unpublished at:
 
-If DevRelay is available to local Codex, use its actual tools/skills to record or save the local testing and refinement session. Label the session accurately as testing/refinement of an existing project. Do not fabricate the earlier build transcript, a session ID/link, or a recording.
+https://dev.to/agent_sessions/barista-buddy-local-browser-testing-js1pha
 
-DevRelay’s official site is https://devrelay.com/. It can save/share agent sessions and create DEV drafts. Its first use requires account authentication; DEV publishing requires linking the DEV account through MLH. Use installed capability instructions rather than guessed tool names. Agent session inclusion is optional for this challenge.
+It records testing/refinement of this existing project, not the original build. The session is private and may not be accessible to judges.
 
 ## Remaining work
 
-1. Verify the initial GitHub Pages workflow succeeds and the public URL loads.
-2. Retry AI preparation on a better connection; verify a browser-generated response grounded in notebook notes and test offline use before claiming either.
-3. Have the friend try it if available; include only real feedback.
-4. Keep the DEV submission unpublished unless Dan explicitly directs publication. Publish before the challenge deadline if entering this challenge.
+1. Retry AI preparation on a better connection; verify a browser-generated response grounded in notebook notes and test offline use before claiming either.
+2. Have the friend try it if available; include only real feedback.
+3. Keep the DEV submission unpublished unless Dan explicitly directs publication. Publish before the challenge deadline if entering this challenge.
 
 Continue this implementation; avoid replacing a working app merely to change frameworks. Never fabricate testing, user feedback, partner-prize eligibility, session recordings, repository links, or published status.
