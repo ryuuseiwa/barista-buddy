@@ -106,13 +106,11 @@ If DevRelay is available to local Codex, use its actual tools/skills to record o
 
 DevRelay’s official site is https://devrelay.com/. It can save/share agent sessions and create DEV drafts. Its first use requires account authentication; DEV publishing requires linking the DEV account through MLH. Use installed capability instructions rather than guessed tool names. Agent session inclusion is optional for this challenge.
 
-## Next work
+## Remaining work
 
-1. Run the existing app locally and test the browser interface at desktop and narrow widths.
-2. Prepare the AI coach and verify a real browser-generated response grounded in notebook notes.
-3. Check organize/review/apply steps, persistence, backup, and offline behavior. Fix observed failures while preserving the intended experience.
-4. Have the friend try it if available; include only real feedback.
-5. Save the actual local DevRelay session when available.
-6. Prepare the real GitHub/demo links and update the draft. Keep it unpublished until Dan directs publication.
+1. Verify the initial GitHub Pages workflow succeeds and the public URL loads.
+2. Retry AI preparation on a better connection; verify a browser-generated response grounded in notebook notes and test offline use before claiming either.
+3. Have the friend try it if available; include only real feedback.
+4. Keep the DEV submission unpublished unless Dan explicitly directs publication. Publish before the challenge deadline if entering this challenge.
 
 Continue this implementation; avoid replacing a working app merely to change frameworks. Never fabricate testing, user feedback, partner-prize eligibility, session recordings, repository links, or published status.

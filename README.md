@@ -42,7 +42,7 @@ The AI uses **HuggingFaceTB/SmolLM2-360M-Instruct**, an Apache-2.0 open-weight m
 
 Open **Settings & backup → Prepare AI coach** while connected to the internet. The first download needs several hundred MB and may take a few minutes. A recent desktop Chrome or Edge is recommended. Inference can be slow on smaller devices. The model is downloaded from Hugging Face, but your drink notes and questions are not sent to Hugging Face for inference. There is no analytics or remote note database.
 
-Notes and practice records live in IndexedDB on this browser. Model files use the Transformers browser cache. The service worker caches the app shell and bundled runtime files. Local inference can work offline after the necessary files are successfully downloaded and cached, but browser cache eviction, insufficient memory, browser compatibility, or clearing browser data can prevent it. Local serving is the recommended offline handoff; the private hosted URL can require internet/sign-in. Export a backup regularly.
+Notes and practice records live in IndexedDB on this browser. Model files use the Transformers browser cache. The service worker caches the app shell and bundled runtime files. Local inference can work offline after the necessary files are successfully downloaded and cached, but browser cache eviction, insufficient memory, browser compatibility, or clearing browser data can prevent it. Local serving is the recommended offline handoff; the original hosted URL can require internet/sign-in. Export a backup regularly.
 
 The hosted service receives ordinary page requests and the model host receives file-download requests. “Local inference” does not mean no network activity during installation.
 
@@ -68,7 +68,7 @@ The pinned q4 model generated a response from sample trainer notes using local O
 
 On October 5, 2026, the local browser interface was checked at desktop (1280x900) and narrow (390x844) sizes with no horizontal overflow. A sample recall answer and self-rating updated the progress view; sample records were removed afterward. Browser-worker inference was attempted twice, but the Hugging Face model download failed around 72% on the first attempt and around 64% on the retry, both with an HTTP/2 protocol error. No browser-generated response or offline AI inference was verified. The model download is several hundred MB and depends on network speed; use Settings & backup → Prepare AI coach to retry. Core tests were not rerun because Node.js was unavailable in the local environment.
 
-The GitHub Pages deployment is an additional project-hosted demo surface; initial deployment availability is confirmed in the repository's Actions and Pages settings.
+The workflow in `.github/workflows/pages.yml` publishes `dist/` to GitHub Pages. Check the repository’s Actions tab and verify the public URL before sharing it; a configured workflow is not proof of a successful deployment.
 
 ## Challenge handoff
 
@@ -79,7 +79,7 @@ The DEV submission draft follows the provided “Build for a Friend” headings.
 3. Let your friend try it and include only his actual feedback.
 4. If you recorded a DevRelay session, add the actual link. Otherwise remove that optional section.
 
-No public GitHub repository, DEV post, friend feedback, prize entry, or DevRelay recording has been fabricated or published.
+The public GitHub repository is available above. The DEV submission remains unpublished, friend feedback has not been collected, and no prize-category eligibility is claimed.
 
 ## Licenses and references
 
