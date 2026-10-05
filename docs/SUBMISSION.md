@@ -1,6 +1,6 @@
 ---
 title: "Barista Buddy: A Little More Confident, One Shift at a Time"
-published: false
+published: true
 tags: devchallenge, weekendchallenge, hf26challenge
 ---
 

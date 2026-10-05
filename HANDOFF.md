@@ -84,13 +84,13 @@ The original source snapshot was published with commit:
 
 This ZIP is a portable source export, not a clone with original Git history. It contains no deployment credentials, original `.git` directory, or Sites identity manifest. The public repository starts a new history and does not contain the original Git history.
 
-## Submission draft and references
+## DEV submission and references
 
-- `docs/SUBMISSION.md` is the prepared, updated DEV submission draft. Keep it unpublished unless Dan explicitly asks to publish.
+- `docs/SUBMISSION.md` is the canonical body of the published DEV submission.
 - `docs/submission-template.pdf` is the supplied template screenshot.
 - `docs/submission-requirements.pdf` is the user-supplied challenge page snapshot.
 
-The draft follows the required headings and has tags `devchallenge`, `weekendchallenge`, `hf26challenge`. It is staged as an unpublished DEV draft at https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-1ad7-temp-slug-53650/edit. It links to the public repository and GitHub Pages demo and accurately discloses that browser inference was not verified. Friend feedback has not been collected; do not invent any.
+The post follows the required headings and is published at https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-3a16 with tags `devchallenge`, `weekendchallenge`, `hf26challenge`. AI assistance is disclosed as “Some AI (AI-assisted).” It links to the public repository and GitHub Pages demo and accurately discloses that browser inference was not verified. Friend feedback has not been collected; do not invent any.
 
 The official deadline was October 5, 2026 at 06:59 UTC, which is October 5 at 1:59 a.m. America/Chicago. Verify the official challenge page if continuing at a later time:
 
@@ -110,6 +110,6 @@ It records testing/refinement of this existing project, not the original build. 
 
 1. Retry AI preparation on a better connection; verify a browser-generated response grounded in notebook notes and test offline use before claiming either.
 2. Have the friend try it if available; include only real feedback.
-3. Keep the DEV submission unpublished unless Dan explicitly directs publication. Publish before the challenge deadline if entering this challenge.
+3. If making commits after the challenge deadline, note them in the README and do not represent them as work completed within the challenge window.
 
 Continue this implementation; avoid replacing a working app merely to change frameworks. Never fabricate testing, user feedback, partner-prize eligibility, session recordings, repository links, or published status.

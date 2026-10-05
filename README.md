@@ -72,14 +72,11 @@ The workflow in `.github/workflows/pages.yml` publishes `dist/` to GitHub Pages.
 
 ## Challenge handoff
 
-The DEV submission draft follows the provided “Build for a Friend” headings. Before posting:
+The DEV submission follows the provided “Build for a Friend” headings and is [published on DEV](https://dev.to/ryuuseiwa/barista-buddy-a-little-more-confident-one-shift-at-a-time-3a16) with the required tags `devchallenge`, `weekendchallenge`, and `hf26challenge`.
 
-1. The source repository is [ryuuseiwa/barista-buddy](https://github.com/ryuuseiwa/barista-buddy).
-2. The public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/) and was checked after the initial successful deploy.
-3. Let your friend try it and include only his actual feedback.
-4. If you recorded a DevRelay session, add the actual link. Otherwise remove that optional section.
+The source repository is [ryuuseiwa/barista-buddy](https://github.com/ryuuseiwa/barista-buddy), and the public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/). Friend feedback has not been collected. The linked DevRelay testing session is private/unpublished and may not be accessible to judges.
 
-The public GitHub repository is available above. The DEV submission remains unpublished, friend feedback has not been collected, and no prize-category eligibility is claimed.
+No optional partner prize-category eligibility is claimed.
 
 ## Licenses and references
 
