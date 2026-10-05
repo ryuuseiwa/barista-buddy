@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#202d45">
+  <title>Barista Buddy — Your shift notebook</title>
+  <meta name="description" content="Remember your drinks, review your shift, and practice with a private, on-device barista coach.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23202d45'/%3E%3Cpath d='M8 10h13v10a5 5 0 0 1-5 5h-3a5 5 0 0 1-5-5z' fill='%23f4aa63'/%3E%3Cpath d='M21 12h3a4 4 0 0 1 0 8h-3' fill='none' stroke='%23f4aa63' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="rail">
+    <a href="#today" class="brand"><span class="brand-mark" aria-hidden="true">☕</span><span>barista<br><b>buddy.</b></span></a>
+    <p class="rail-label">YOUR LEARNING SPACE</p>
+    <nav aria-label="Main navigation">
+      <a href="#today" data-route="today"><span aria-hidden="true">◷</span> Today</a>
+      <a href="#notebook" data-route="notebook"><span aria-hidden="true">▤</span> Drink notebook</a>
+      <a href="#practice" data-route="practice"><span aria-hidden="true">✦</span> Practice</a>
+      <a href="#progress" data-route="progress"><span aria-hidden="true">▥</span> My progress</a>
+    </nav>
+    <div class="rail-bottom"><p>A little better,<br>one shift at a time.</p><button class="rail-button" id="settings-open">Settings & backup</button><span class="private-label">⌂ Notes stay on this device</span></div>
+  </aside>
+  <main id="main">
+    <header class="topbar"><span id="date-label"></span><div><span class="badge">Your personal notebook</span><button class="avatar" id="settings-top" aria-label="Open settings">B</button></div></header>
+    <div id="demo-banner" class="demo-banner" hidden><span>Sample notebook · These are example shifts, not your history.</span><button id="clear-demo" class="text-button">Start my own notebook</button></div>
+    <div id="storage-warning" class="notice error" hidden></div>
+    <section id="view"></section>
+    <footer>Made for the moments between shifts. <span id="offline-state">Saved on this device</span></footer>
+  </main>
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-top"><h2 id="settings-title">Your notebook, your device.</h2><button class="icon-button close-dialog" aria-label="Close settings">✕</button></div>
+    <p>Notes are stored in this browser. They won’t sync to another device. Export a backup before clearing browser data.</p>
+    <div class="settings-section"><h3>Backup</h3><div class="button-row"><button class="primary" id="export">Export notebook</button><label class="button secondary" for="import-file">Import backup</label><input type="file" id="import-file" accept="application/json,.json" hidden></div><p class="fine">Import adds missing entries. Your existing notes stay in place.</p></div>
+    <div class="settings-section"><h3>On-device AI coach</h3><p>The coach uses SmolLM2, an open-weight model, in your browser. The first download needs internet and several hundred MB of space. Your notes aren’t sent to a model server.</p><div class="button-row"><button class="primary" id="load-model">Prepare AI coach</button><button class="secondary" id="cancel-model" hidden>Cancel</button></div><div id="model-status" class="model-status" role="status">Coach not loaded. Notebook and recall practice work without it.</div><progress id="model-progress" max="100" value="0" hidden></progress><p class="fine">Desktop Chrome or Edge recommended. Once downloaded and cached, local inference can work offline. Browser storage may be evicted.</p></div>
+    <div class="settings-section"><h3>Try it out</h3><p>Load a few example shifts to explore the notebook and practice.</p><button class="secondary" id="load-demo">Load sample notebook</button></div>
+    <div class="settings-section"><h3>Offline use</h3><p id="offline-detail">Preparing offline notebook…</p><p class="fine">For an offline handoff, use the downloadable source on localhost. The hosted link may need sign-in and internet access.</p></div>
+  </dialog>
+  <dialog id="delete-dialog" aria-labelledby="delete-title"><h2 id="delete-title">Delete this shift entry?</h2><p>This removes the entry and its recipe notes. Export a backup first if you want to keep it.</p><div class="button-row"><button id="delete-cancel" class="secondary">Keep entry</button><button id="delete-confirm" class="danger">Delete entry</button></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
