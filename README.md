@@ -76,7 +76,7 @@ The DEV submission follows the provided “Build for a Friend” headings and is
 
 The source repository is [ryuuseiwa/barista-buddy](https://github.com/ryuuseiwa/barista-buddy), and the public demo is deployed at [GitHub Pages](https://ryuuseiwa.github.io/barista-buddy/). Friend feedback has not been collected. The linked DevRelay testing session is private/unpublished and may not be accessible to judges.
 
-No optional partner prize-category eligibility is claimed.
+Barista Buddy was built during the challenge window, not before it. No partner prize category is listed in the submission.
 
 ## Licenses and references
 

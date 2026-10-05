@@ -6,6 +6,8 @@ tags: devchallenge, weekendchallenge, hf26challenge
 
 *This is a submission for the [Hacktoberfest Weekend Challenge: Build for a Friend](https://dev.to/challenges/hacktoberfest-weekend-2026-10-01)*
 
+I built Barista Buddy during the challenge window; the project was not developed before the contest period.
+
 ## What I Built
 
 My friend recently moved to a new country and is training to become a barista. He’s learning drink recipes, customer phrases, and a new work environment at the same time. I wanted to give him somewhere to put all of that instead of trying to remember everything after a shift.
@@ -70,7 +72,3 @@ For this particular app, that’s the intended benefit of open innovation: he ca
 ## My Agent Session
 
 I saved a DevRelay session documenting local browser testing and the model-download failure: [Barista Buddy local browser testing](https://dev.to/agent_sessions/barista-buddy-local-browser-testing-js1pha). The session is private/unpublished and may not be accessible to judges.
-
-## Prize Categories
-
-I am not claiming eligibility for an optional partner prize category.

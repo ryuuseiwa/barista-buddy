@@ -1,6 +1,6 @@
 # Barista Buddy — Codex handoff
 
-Read this file and `README.md` before continuing. This is an existing app built in ChatGPT Work, transferred into VS Code for local testing, improvements, and challenge preparation.
+Read this file and `README.md` before continuing. This app was built in ChatGPT Work during the Hacktoberfest Weekend Challenge window, then transferred into VS Code for local testing, improvements, and challenge submission.
 
 ## User and goal
 
